@@ -5,7 +5,7 @@ resource "aws_dynamodb_table" "payment_table" {
   hash_key       = "id"
 
   attribute {
-    name = "orderId"
+    name = "id"
     type = "S"
   }
 }
