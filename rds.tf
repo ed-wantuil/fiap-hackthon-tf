@@ -1,5 +1,5 @@
 resource "aws_db_instance" "postgres_db" {
-  identifier             = "postgres-hackathon"
+  identifier             = "postgres_hackathon"
   engine                 = "postgres"
   engine_version         = "15.4"
   instance_class         = "db.t3.micro"
